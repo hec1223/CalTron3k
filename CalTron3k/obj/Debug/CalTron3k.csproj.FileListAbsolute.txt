@@ -1,0 +1,15 @@
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\bin\Debug\CalTron3k.exe.config
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\bin\Debug\CalTron3k.exe
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\bin\Debug\CalTron3k.pdb
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k.csprojAssemblyReference.cache
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\MainWindow.g.cs
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\App.g.cs
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k_MarkupCompile.cache
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k_MarkupCompile.lref
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\MainWindow.baml
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k.g.resources
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k.Properties.Resources.resources
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k.csproj.GenerateResource.cache
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k.csproj.CoreCompileInputs.cache
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k.exe
+C:\Users\krollins\source\repos\CalTron3k\CalTron3k\obj\Debug\CalTron3k.pdb
