@@ -28,24 +28,33 @@ namespace CalTron3k
 
         public string Mailer(string username, string password)
         {
-           string status = "Message has been sent";
+            string status = "Message has been sent";
             
-           MailMessage message = new MailMessage();
-           SmtpClient SmtpServer = new SmtpClient("smtp-mail.outlook.com");
-           
-           SmtpServer.EnableSsl = true;
-           message.From = new MailAddress(username);
-           message.To.Add(username);
-           message.Subject = "TEST Subject";
-           message.Body = "Body Test";
+            MailMessage message = new MailMessage();
+            SmtpClient SmtpServer = new SmtpClient("smtp-mail.outlook.com");           
+            SmtpServer.EnableSsl = true;
+            
+            // Message params
+            message.From = new MailAddress(username);
+            message.To.Add(username);
+            message.Subject = "TEST Subject";
+            message.Body = "Body Test";
+            
+            SmtpServer.Port = 587;           
+            SmtpServer.Credentials = new System.Net.NetworkCredential(username, password);
 
-           SmtpServer.Port = 587;
-           
-           SmtpServer.Credentials = new System.Net.NetworkCredential(username, password);
-           
-           SmtpServer.Send(message);
-
-           return status; 
+            try
+            {
+                SmtpServer.Send(message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception caught in CreateCopyMessage(): {0}",
+                            ex.ToString());
+            }
+            
+            
+            return status; 
         }
     }
 }
